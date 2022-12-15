@@ -12,7 +12,7 @@ spec:
       labels:
         app: httpd
     spec:
-      #serviceAccountName: httpd
+      serviceAccountName: httpd
       containers:
         - name: httpd
           resources:
