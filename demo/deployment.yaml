@@ -4,6 +4,7 @@ metadata:
   name: httpd
   namespace: gitops-demo
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: httpd
@@ -13,7 +14,6 @@ spec:
         app: httpd
         santander: f1rst
     spec:
-      replicas: 1
       serviceAccountName: httpd
       containers:
         - name: httpd
