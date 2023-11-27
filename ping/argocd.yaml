@@ -4,3 +4,5 @@ metadata:
   name: ping-argocd
   namespace: kube-system
 type: Opaque
+data:
+  teste: cGluZwo=
